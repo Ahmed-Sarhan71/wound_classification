@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # Function to load the trained model
 def load_model():
-    model = tf.keras.models.load_model('C:\\Users\\Ahmed Sarhan\\Downloads\\my_model.h5')  # Replace with your model path
+    model = tf.keras.models.load_model('my_model.h5')  # Replace with your model path
     return model
 
 # Function to preprocess the uploaded image
